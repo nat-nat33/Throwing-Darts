@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/nat-nat33/Throwing-Darts#readme",
   "devDependencies": {
+    "browser-sync": "^2.11.2",
     "chai": "^3.5.0",
+    "gulp": "^3.9.1",
     "mocha": "^2.4.5"
   }
 }
