@@ -1,10 +1,14 @@
 describe('ScoreThrows', function () {
+  it('should exist', function () {
+    expect(ScoreThrows).to.exist;
+  });
+
   it('it should be a function', function () {
     expect(ScoreThrows).to.be.a('function');
   });
 
   it('should return a number', function () {
-    expect(ScoreThrows).to.equal('number');
+    expect(ScoreThrows([1, 5, 11])).to.a('number');
   });
 
   it('should return a calculated score', function () {
